@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 
-.clearfix::after{
-  content: '';
-  display: table;
+.clearfix::after {
+  content: "";
   clear: both;
+  display: table;
 }
 
 
@@ -61,10 +61,11 @@ main p{
 
 .col{
   float: left;
-  width: 370px;
+  width: calc(100%/3);
   background-color: rgb(0, 0, 0);
   max-height: 100px;
   margin: 40px 10px;
+  min-width: 300px
 
 }
 
